@@ -1,0 +1,193 @@
+.bb {
+
+    font-family: Montserrat, sans-serif;
+}
+
+.t {
+    text-align: center;
+
+    color: #273582;
+
+}
+.op2 {
+    background-image: url("analisis.jpg");
+    position: relative;
+    padding: 15%;
+    background-position: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 13px;
+}
+.op1{
+    background-image: url("si.png");
+    position: relative;
+    padding: 15%;
+    background-position: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 13px;
+}
+.op3{
+    background-image: url("system_edited.jpg");
+    position: relative;
+    padding: 15%;
+    background-position: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 13px;
+}
+.ar1{
+    background-image: url("si.png");
+    position: relative;
+    padding: 3%;
+    background-position: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 13px;
+	color: #fff;
+	backdrop-filter: blur(10px);
+    padding: 7%;
+}
+.ar2{
+    background-image: url("asu.jpg");
+    position: relative;
+    padding: 3%;
+    background-position: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 13px;
+	color: #fff;
+	backdrop-filter: blur(10px);
+    padding: 7%;
+}
+.ar3{
+    background-image: url("ff.jpg");
+    position: relative;
+    padding: 3%;
+    background-position: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 13px;
+}
+h3{
+    backdrop-filter: blur(10px);
+    padding: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+.opt{
+	background-image: url("asu.jpg");
+	border-radius: 6px;
+	padding: 30px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position-x: center;
+	background-position-y: center;
+}
+.izq {
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+    background-color:lightblue;
+    border-radius: 5px;
+    padding: auto;
+}
+.text{
+	color: #fff;
+	backdrop-filter: blur(10px);
+    padding: 7%;
+	border-radius: 15px;
+}
+.der {
+    float: right;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.espacio {
+    clear: both;
+}
+
+.ex {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+footer {
+	margin-top: 100px;
+	text-align: center;
+	background-color: #20232e;
+	padding: 60px 0px;
+}
+
+footer ul.social-icons {
+	padding-bottom: 60px;
+	margin-bottom: 60px;
+	border-bottom: 1px solid rgba(250,250,250,0.15);
+}
+
+footer ul.social-icons li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+footer ul.social-icons li:after {
+	content: "|";
+	color: #fff;
+	margin-left: 30px;
+}
+
+footer ul.social-icons li:last-child {
+	margin-right: 0px;
+}
+
+footer ul.social-icons li:last-child::after {
+	display: none;
+}
+
+footer ul.social-icons li a {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 0.25px;
+	transition: all .3s;
+}
+
+footer ul.social-icons li a:hover {
+	color: #f48840;
+}
+
+footer p {
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+footer p a {
+	color: #f48840;
+}
+
+footer p a:hover {
+	color: #f48840;
+}

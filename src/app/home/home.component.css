@@ -1,0 +1,184 @@
+.bb{
+
+    font-family: Montserrat, sans-serif;
+}
+
+.tit{
+
+    text-align: center;
+    padding: 30px;
+   
+    border-radius: 3%;
+}
+.izq{
+    padding: 30px;
+    float:left;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.der{
+    padding: 30px;
+    float:right;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.espacio{
+    clear: both;
+}
+h1{
+    color: #273582;
+}
+.container{
+     text-align: center;
+}
+.img{
+width: 50%;
+height: 30%;
+
+}
+.ex {
+ display: flex;
+ justify-content: space-between;
+ margin-top: 20px;
+}
+.box{
+    display: inline-block;
+    padding: 10%;
+    border-radius: 4%;
+    width: 40%;
+    height: 100px;
+    background-color: #ccc;
+    margin: 0 10px;
+    box-sizing: border-box;
+    clear: both;
+}
+
+.box1{
+    display: inline-block;
+    text-align: center;
+    padding: 1%;
+    border-radius: 4%;
+    width: 40%;
+    height: 180px;
+    background-color: #ccc;
+    margin: 0 10px;
+    box-sizing: border-box;
+  
+}
+/* Footer */
+
+footer {
+	margin-top: 100px;
+	text-align: center;
+	background-color: #20232e;
+	padding: 60px 0px;
+}
+
+footer ul.social-icons {
+	padding-bottom: 60px;
+	margin-bottom: 60px;
+	border-bottom: 1px solid rgba(250,250,250,0.15);
+}
+
+footer ul.social-icons li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+footer ul.social-icons li:after {
+	content: "|";
+	color: #fff;
+	margin-left: 30px;
+}
+
+footer ul.social-icons li:last-child {
+	margin-right: 0px;
+}
+
+footer ul.social-icons li:last-child::after {
+	display: none;
+}
+.op{
+    background-image: url("card1.jpg");
+    position: relative;
+    padding: 15%;
+    background-position: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+ 
+}
+.op2{
+    background-image: url("airline.png");
+    position: relative;
+    padding: 15%;
+    background-position: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 13px;
+}
+h1 {
+    backdrop-filter: blur(10px);
+    padding: 7%;
+    border-radius: 10px;
+}
+p{
+    backdrop-filter: blur(10px);
+    padding: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+.op1{
+    background-image: url("resources.jpg");
+    position: relative;
+    padding: 15%;
+    background-position: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+}
+.a1{
+    background-image: url("card1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
+
+
+footer ul.social-icons li a {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 0.25px;
+	transition: all .3s;
+}
+
+footer ul.social-icons li a:hover {
+	color: #f48840;
+}
+
+footer p {
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+footer p a {
+	color: #f48840;
+}
+
+footer p a:hover {
+	color: #f48840;
+}

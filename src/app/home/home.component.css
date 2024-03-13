@@ -26,7 +26,7 @@
     clear: both;
 }
 h1{
-    color: #273582;
+    color: #ffffff;
 }
 .container{
      text-align: center;
@@ -90,7 +90,9 @@ footer ul.social-icons li:after {
 	color: #fff;
 	margin-left: 30px;
 }
-
+p{
+    color:#ffffff;
+}
 footer ul.social-icons li:last-child {
 	margin-right: 0px;
 }
@@ -99,7 +101,7 @@ footer ul.social-icons li:last-child::after {
 	display: none;
 }
 .op{
-    background-image: url("card1.jpg");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/desarrollo-sustentable-59d3d.appspot.com/o/WhatsApp%20Image%202024-03-12%20at%2010.17.55%20PM.jpeg?alt=media&token=8f32cb57-cddd-4f0b-8353-2092607d85bb");
     position: relative;
     padding: 15%;
     background-position: center;
@@ -111,7 +113,7 @@ footer ul.social-icons li:last-child::after {
  
 }
 .op2{
-    background-image: url("airline.png");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/desarrollo-sustentable-59d3d.appspot.com/o/WhatsApp%20Image%202024-03-12%20at%2010.17.56%20PM%20(1).jpeg?alt=media&token=3156f65c-c0a2-4013-a71a-c264071f716b");
     position: relative;
     padding: 15%;
     background-position: center;
@@ -134,7 +136,7 @@ p{
     text-align: center;
 }
 .op1{
-    background-image: url("resources.jpg");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/desarrollo-sustentable-59d3d.appspot.com/o/WhatsApp%20Image%202024-03-12%20at%2010.17.56%20PM.jpeg?alt=media&token=46f7a8ec-d340-4c51-bae7-316d8b048fd6");
     position: relative;
     padding: 15%;
     background-position: center;

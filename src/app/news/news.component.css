@@ -5,60 +5,23 @@
 .title{
     text-align: center;
 }
+/* Estilos para la imagen de la publicación */
+.img-container {
+  overflow: hidden; /* Oculta el exceso de imagen */
+  height: 200px; /* Altura fija de la imagen */
+}
+
+.card-img-top {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+  height: auto; /* Permite que la altura de la imagen se ajuste automáticamente */
+  transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+
+.card-img-top:hover {
+  transform: scale(1.1); /* Escala la imagen al 110% al pasar el ratón sobre ella */
+}
 
 
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  
-  .boton {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  button[type="submit"] {
-    padding: 10px 20px;
-    background-color:#2a3990;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button[type="submit"]:hover {
-    background-color:#2a3990;
-  }
-  
-
-  .container{
-
-    width: 100%;
-    padding: 10px;
-align-items: center;
-text-align: center;
-border-radius: 5%;
-  }
-  .izq{
-float: left;
-width: 50%;
-background-color: #2a3990;
-border-radius: 2%;
-  }
-
-  .der{
-    float: right;
-    width: 50%;
-background-color: #2a3990;
-border-radius: 2%;
-  }
   /* Footer */
 
 footer {

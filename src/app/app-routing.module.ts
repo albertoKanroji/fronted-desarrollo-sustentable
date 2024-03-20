@@ -7,6 +7,7 @@ import { InnovationComponent } from './innovation/innovation.component';
 import { NewsComponent } from './news/news.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { NewsDetailComponent } from './news/news-detail/news-detail.component';
 
 const routes: Routes = [
 
@@ -38,6 +39,7 @@ const routes: Routes = [
   path:'contact-us',
   component:ContactUsComponent
 },
+{ path: 'news/:id', component: NewsDetailComponent } // Ruta con parámetro ':id'
 
 
 ];

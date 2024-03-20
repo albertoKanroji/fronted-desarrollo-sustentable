@@ -7,12 +7,41 @@
     <title>Document</title>
 </head>
 <body class=bb>
-    <div class="title">Noticias de Optimen</div>
-    <div class="container">
-        <div class="noti">
+  <div class="title">Blog del pacto Verde</div>
+  <div class="container">
+    <div class="noti row">
+      <div class="col-md-6" *ngFor="let publicacion of publicaciones; let i = index">
+        <div class="card mb-3">
+          <!-- Imagen de la publicación -->
+          <div class="img-container">
+            <img *ngIf="publicacion.imagenes.length > 0" [src]="publicacion.imagenes[0].rutaImagen" class="card-img-top" alt="Imagen de la publicación">
+          </div>
+          <div class="card-body">
+            <!-- Título y subtítulo de la publicación -->
+            <h5 class="card-title">{{ publicacion.titulo }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{ publicacion.subTitulo }}</h6>
+            <!-- Tags de la publicación -->
+            <div *ngIf="publicacion.tags.length > 0">
+              <p class="card-text">Tags: 
+                <span *ngFor="let tag of publicacion.tags" class="badge badge-success">{{ '#' + tag.nombreTag }}</span>
+              </p>
+            </div>
+            
+            <!-- Categoría de la publicación -->
+            <p class="card-text">Categoría: {{ publicacion.categoria.nombreCategoria }}</p>
+            <!-- Usuario que hizo la publicación -->
+            <p class="card-text">Hecho por: {{ publicacion.usuarios[0].name }}</p>
+            <!-- Botón "Ver Detalle" -->
+            <!-- Botón "Ver Detalle" -->
+<a [routerLink]="['/news', publicacion.id]" class="btn btn-primary rounded-pill">Ver Detalle</a>
 
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+  
+
 
 
     <footer>

@@ -12,6 +12,8 @@ import { ServicesComponent } from './services/services.component';
 import { InnovationComponent } from './innovation/innovation.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { HttpClientModule } from '@angular/common/http';
+import { NewsDetailComponent } from './news/news-detail/news-detail.component'; // Importa HttpClientModule
 
 @NgModule({
   declarations: [
@@ -24,11 +26,13 @@ import { NavbarComponent } from './navbar/navbar.component';
     ServicesComponent,
     InnovationComponent,
     ContactUsComponent,
-    NavbarComponent
+    NavbarComponent,
+    NewsDetailComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
